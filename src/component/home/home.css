@@ -1,0 +1,78 @@
+.home_container{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('./../../assest/cartoon3.gif'); */
+    background-color: var(--white);
+    
+}
+.developed{
+    text-align: end;
+    color: rgb(161, 161, 161);
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.developed a{
+    font-size: 13px;
+    color: rgb(172, 172, 172);
+    font-weight: 500;
+}
+.developed svg{
+    width: 15px;
+    height: 15px;
+}
+.banner_logo_container{
+    width: 100%;
+    display: flex;
+    height: 95%;
+    align-items: center;
+    justify-content: end;
+}
+.heading_container{
+    padding: 5%;
+    width: 50%;
+}
+.heading_container h2{
+    font-size: 56px;
+    font-weight: 900;
+    color: rgb(70, 70, 70);
+    line-height: 100%;
+}
+.heading_container h2 span{
+    color: var(--blue);
+}
+.heading_container h1{
+    font-size: 36px;
+    margin: 5% 0;
+    font-weight: 900;
+    color: var(--blue);
+}
+.heading_container button a{
+    color: var(--blue);
+    text-decoration: none;
+  
+}
+.heading_container button{
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    outline: none;
+    color: var(--blue);
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.heading_container button:hover{
+    color: var(--white);
+    background-color: var(--blue);
+}
+.cartoon_image{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.cartoon_image img{
+    width: 100%;
+    height: 100%;
+}
